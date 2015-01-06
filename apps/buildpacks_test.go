@@ -36,7 +36,7 @@ var _ = Describe("Buildpacks", func() {
 
 //	Describe("nodeWithWebsocket", func() {
 //		It("pushes successfully", func() {
-			Expect(cf.Cf("push", appName, "-p", assets.NewAssets().NodeWithWebsocket, "-c", "node app.js").Wait(CF_PUSH_TIMEOUT)).To(Exit(0))
+//			Expect(cf.Cf("push", appName, "-p", assets.NewAssets().NodeWithWebsocket, "-c", "node app.js").Wait(CF_PUSH_TIMEOUT)).To(Exit(0))
 //
 //			Eventually(func() string {
 //					return helpers.CurlAppRoot(appName)
